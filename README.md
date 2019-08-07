@@ -7,9 +7,11 @@ Bash script notifying for unpaid electricity and water bills.
 On Debian-like systems:
 
 apt-get update\
-apt-get install sendemail libio-socket-ssl-perl libnet-ssleay-perl
+apt-get install sendemail libio-socket-ssl-perl libnet-ssleay-perl\
+apt-get install bc
 
 The libraries are mandatory for TLS support.
+BC (basic calculator) does some calculations which bash's math can't handle.
 
 ### Google mail security settings changes
 
